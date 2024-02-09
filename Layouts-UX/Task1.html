@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Level 1</title>
+    <style>
+      /* Specifying Rules for the Div */
+      .centerBlackSquare {
+        width: 50vw; /* Set the width to 50% of the viewport width */
+        height: 50vh; /* Set the height to 50% of the viewport height */
+        background-color: black;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+      }
+			
+			/* Styling the Text */
+			.funky-text {
+      font-family: 'Comic Sans MS', cursive;
+      color: yellow;
+      text-shadow: 2px 2px 4px #000000;
+    }
+		
+    </style>
+  </head>
+  <body> 
+    <div class="centerBlackSquare">
+			<marquee behavior="alternate" direction="left"><span class="funky-text">Content Here</span></marquee> <!-- Marquee  text -->
+		</div>
+		
+  </body>
+</html>
